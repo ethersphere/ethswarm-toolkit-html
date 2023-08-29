@@ -14,6 +14,19 @@ export default {
       boxShadow: {
         card: "0px 2px 4px rgb(0 0 0 / 0.13), 3px 8px 18px rgb(0 0 0 / 0.1)"
       },
+      spacing: {
+        '7.5': "1.875rem",
+        '19': "4.75rem"
+      },
+      colors: {
+        gray: {
+          90: "#F6F7F9",
+          100: "#F4F4F4",
+          400: "#686868",
+          500: "#626262",
+          900: "#111111",
+        },
+      }
     },
   },
   plugins: [],
