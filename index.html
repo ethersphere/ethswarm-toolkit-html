@@ -23,6 +23,8 @@
     content="A toolkit for building value-driven, decentralized digital ecosystems." />
   <meta property="twitter:image" content="https://toolkit.ethswarm.org/og.png" />
 
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.min.css" />
+
   <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
@@ -56,76 +58,82 @@
     </div>
   </section>
 
-  <section class="w-full pb-12 bg-white">
-    <div class="flex gap-x-[30px] mx-auto max-w-7xl py-8 px-5 lg:px-8 overflow-x-auto w-full">
+  <section class="w-full pb-12 overflow-hidden bg-white">
+    <div class="px-5 py-8 mx-auto lg:px-8 max-w-7xl">
+      <div class="">
 
-      <a href="https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/" target="_blank"
-        class="bg-[#4337f5] relative rounded px-[30px] text-[#D1D6DA] opacity-90 hover:opacity-100 duration-150 shadow-card aspect-[0.675] w-[297px] shrink-0 font-display flex flex-col">
-        <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
-        <img src="/1.png" class="w-full aspect-square" alt="" />
-        <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Introduction</h3>
-      </a>
+        <div id="slider" class="keen-slider">
+          <a href="https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/" target="_blank"
+            class="bg-[#4337f5] relative rounded px-[30px] text-[#D1D6DA] opacity-90 hover:opacity-100  shadow-card aspect-[0.675] font-display flex flex-col keen-slider__slide">
+            <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+            <img src="/1.png" class="w-full aspect-square" alt="" />
+            <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Introduction</h3>
+          </a>
 
-      <a href="https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-how-do-ecosystems-grow/" target="_blank"
-        class="bg-[#d2d6da] relative rounded px-[30px] text-[#FF6500] opacity-90 hover:opacity-100 duration-150 shadow-card aspect-[0.675] w-[297px] shrink-0 font-display flex flex-col">
-        <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
-        <img src="/2.png" class="w-full aspect-square" alt="" />
-        <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">How do ecosystems grow</h3>
-      </a>
+          <a href="https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-how-do-ecosystems-grow/"
+            target="_blank"
+            class="bg-[#d2d6da] relative rounded px-[30px] text-[#FF6500] opacity-90 hover:opacity-100  shadow-card aspect-[0.675] shrink-0 font-display flex flex-col keen-slider__slide">
+            <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+            <img src="/2.png" class="w-full aspect-square" alt="" />
+            <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">How do ecosystems grow</h3>
+          </a>
 
-      <a href="https://blog.ethswarm.org/foundation/2023/cooperating-on-blockchain/" target="_blank"
-        class="bg-[#F4B95F] relative rounded px-[30px] text-[#4636FF] opacity-90 hover:opacity-100 duration-150 shadow-card aspect-[0.675] w-[297px] shrink-0 font-display flex flex-col">
-        <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
-        <img src="/3.png" class="w-full aspect-square" alt="" />
-        <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Cooperating on Blockchain</h3>
-      </a>
+          <a href="https://blog.ethswarm.org/foundation/2023/cooperating-on-blockchain/" target="_blank"
+            class="bg-[#F4B95F] relative rounded px-[30px] text-[#4636FF] opacity-90 hover:opacity-100  shadow-card aspect-[0.675] shrink-0 font-display flex flex-col keen-slider__slide">
+            <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+            <img src="/3.png" class="w-full aspect-square" alt="" />
+            <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Cooperating on Blockchain</h3>
+          </a>
 
-      <a href="https://blog.ethswarm.org/foundation/2023/the-satoshis-dream/" target="_blank"
-        class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100 duration-150 shadow-card aspect-[0.675] w-[297px] shrink-0 font-display flex flex-col">
-        <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
-        <img src="/4.png" class="w-full aspect-square" alt="" />
-        <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">The Satoshi’s Dream</h3>
-      </a>
+          <a href="https://blog.ethswarm.org/foundation/2023/the-satoshis-dream/" target="_blank"
+            class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100  shadow-card aspect-[0.675] shrink-0 font-display flex flex-col keen-slider__slide">
+            <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+            <img src="/4.png" class="w-full aspect-square" alt="" />
+            <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">The Satoshi’s Dream</h3>
+          </a>
 
-      <a href="https://blog.ethswarm.org/foundation/2023/anonymity-in-the-cryptosphere/" target="_blank"
-        class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100 duration-150 shadow-card aspect-[0.675] w-[297px] shrink-0 font-display flex flex-col">
-        <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
-        <img src="/5.png" class="w-full aspect-square" alt="" />
-        <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Anonymity in the Cryptosphere</h3>
-      </a>
+          <a href="https://blog.ethswarm.org/foundation/2023/anonymity-in-the-cryptosphere/" target="_blank"
+            class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100  shadow-card aspect-[0.675] shrink-0 font-display flex flex-col keen-slider__slide">
+            <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+            <img src="/5.png" class="w-full aspect-square" alt="" />
+            <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Anonymity in the Cryptosphere</h3>
+          </a>
 
-      <a href="https://blog.ethswarm.org/foundation/2023/democracy-and-decentralization/" target="_blank"
-        class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100 duration-150 shadow-card aspect-[0.675] w-[297px] shrink-0 font-display flex flex-col">
-        <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
-        <img src="/6.png" class="w-full aspect-square" alt="" />
-        <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Democracy and Decentralization</h3>
-      </a>
+          <a href="https://blog.ethswarm.org/foundation/2023/democracy-and-decentralization/" target="_blank"
+            class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100  shadow-card aspect-[0.675] shrink-0 font-display flex flex-col keen-slider__slide">
+            <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+            <img src="/6.png" class="w-full aspect-square" alt="" />
+            <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Democracy and Decentralization</h3>
+          </a>
 
-      <a href="https://blog.ethswarm.org/foundation/2023/is-net-neutrality-important-for-blockchains/" target="_blank"
-        class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100 duration-150 shadow-card aspect-[0.675] w-[297px] shrink-0 font-display flex flex-col">
-        <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
-        <img src="/7.png" class="w-full aspect-square" alt="" />
-        <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Is Net Neutrality Important for
-          Blockchains?</h3>
-      </a>
+          <a href="https://blog.ethswarm.org/foundation/2023/is-net-neutrality-important-for-blockchains/"
+            target="_blank"
+            class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100  shadow-card aspect-[0.675] shrink-0 font-display flex flex-col keen-slider__slide">
+            <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+            <img src="/7.png" class="w-full aspect-square" alt="" />
+            <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Is Net Neutrality Important for
+              Blockchains?</h3>
+          </a>
 
-      <a href="https://blog.ethswarm.org/foundation/2023/why-interoperability-is-the-bedrock-of-digital-freedom/"
-        target="_blank"
-        class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100 duration-150 shadow-card aspect-[0.675] w-[297px] shrink-0 font-display flex flex-col">
-        <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
-        <img src="/8.png" class="w-full aspect-square" alt="" />
-        <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Why Interoperability is the Bedrock of
-          Digital Freedom</h3>
-      </a>
+          <a href="https://blog.ethswarm.org/foundation/2023/why-interoperability-is-the-bedrock-of-digital-freedom/"
+            target="_blank"
+            class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100  shadow-card aspect-[0.675] shrink-0 font-display flex flex-col keen-slider__slide">
+            <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+            <img src="/8.png" class="w-full aspect-square" alt="" />
+            <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">Why Interoperability is the Bedrock
+              of
+              Digital Freedom</h3>
+          </a>
 
-      <a href="https://blog.ethswarm.org/foundation/2023/the-way-forward/" target="_blank"
-        class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100 duration-150 shadow-card aspect-[0.675] w-[297px] shrink-0 font-display flex flex-col">
-        <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
-        <img src="/9.png" class="w-full aspect-square" alt="" />
-        <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">The Way Forward</h3>
-      </a>
+          <a href="https://blog.ethswarm.org/foundation/2023/the-way-forward/" target="_blank"
+            class="bg-[#9585FF] relative rounded px-[30px] text-[#F0FA2F] opacity-90 hover:opacity-100  shadow-card aspect-[0.675] shrink-0 font-display flex flex-col keen-slider__slide">
+            <h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+            <img src="/9.png" class="w-full aspect-square" alt="" />
+            <h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">The Way Forward</h3>
+          </a>
+        </div>
+      </div>
     </div>
-
 
   </section>
 
@@ -346,6 +354,35 @@
 
 
   <script type="module" src="/main.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.js"></script>
+
+  <script>
+    setTimeout(function() {
+      var slider = new KeenSlider(
+        '#slider', {
+          slides: {
+            perView: 1.2,
+            spacing: 32,
+          },
+          mode: "free-snap",
+          breakpoints: {
+            '(min-width: 640px)': {
+              slides: {
+                perView: 2.1,
+                spacing: 32,
+              }
+            },
+            '(min-width: 1024px)': {
+              slides: {
+                perView: 3.1,
+                spacing: 32,
+              }
+            },
+          },
+        }
+      )
+    }, 5000);
+  </script>
 </body>
 
 </html>
