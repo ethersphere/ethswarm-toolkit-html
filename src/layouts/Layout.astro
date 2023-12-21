@@ -1,0 +1,54 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
+
+		<meta name="description" content="A toolkit for building value-driven, decentralized digital ecosystems." />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://toolkit.ethswarm.org" />
+		<meta property="og:title" content="The Hivemaker’s Code" />
+		<meta property="og:description" content="A toolkit for building value-driven, decentralized digital ecosystems." />
+		<meta property="og:image" content="https://toolkit.ethswarm.org/og.png" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://toolkit.ethswarm.org" />
+		<meta property="twitter:title" content="The Hivemaker’s Code" />
+		<meta property="twitter:description"
+			content="A toolkit for building value-driven, decentralized digital ecosystems." />
+		<meta property="twitter:image" content="https://toolkit.ethswarm.org/og.png" />
+
+	</head>
+	<body
+		class="antialiased bg-[#F6F7F9] font-sans"
+		x-data="{ showModal: false }"
+  		x-on:keydown.window.escape="showModal = false"
+	>
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+@import url('https://api.fonts.coollabs.io/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500&display=swap');
+
+[x-cloak] {
+  display: none !important;
+}
+
+.keen-slider:not([data-keen-slider-disabled]) {
+  overflow: visible !important;
+}
+</style>
