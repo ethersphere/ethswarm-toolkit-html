@@ -1,0 +1,18 @@
+---
+interface Props {
+	img: string;
+	title: string;
+	href: string;
+	color: string;
+	background: string;
+}
+
+const { href, img, title, color, background } = Astro.props;
+---
+
+<a href={href} target="_blank"
+	class={`${background} ${color} relative rounded px-[30px] opacity-90 hover:opacity-100 shadow-card hover:shadow-card-hover aspect-[0.675] font-display flex flex-col keen-slider__slide transition-[opacity,box-shadow] duration-300`}>
+	<h4 class="font-medium text-sm leading-[16px] py-[22px]">The<br />Hivemaker’s<br />Code</h4>
+	<img src={img} class="w-full aspect-square" alt="" />
+	<h3 class="uppercase pt-[22px] text-[22px] leading-[27px] font-medium">{title}</h3>
+</a>

@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Introduction",
+    "href": "https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-introduction/",
+    "img": "/1.png",
+    "color": "text-[#D1D6DA]",
+    "background": "bg-[#4337f5]"
+  },
+  {
+    "title": "How do ecosystems grow",
+    "href": "https://blog.ethswarm.org/foundation/2023/the-hivemakers-code-how-do-ecosystems-grow/",
+    "img": "/2.png",
+    "color": "text-[#FF6500]",
+    "background": "bg-[#d2d6da]"
+  },
+  {
+    "title": "Cooperating on Blockchain",
+    "href": "https://blog.ethswarm.org/foundation/2023/cooperating-on-blockchain/",
+    "img": "/3.png",
+    "color": "text-[#4636FF]",
+    "background": "bg-[#F4B95F]"
+  },
+  {
+    "title": "The Satoshi’s Dream",
+    "href": "https://blog.ethswarm.org/foundation/2023/the-satoshis-dream/",
+    "img": "/4.png",
+    "color": "text-[#F0FA2F]",
+    "background": "bg-[#9585FF]"
+  },
+  {
+    "title": "Anonymity",
+    "href": "https://blog.ethswarm.org/foundation/2023/anonymity-in-the-cryptosphere/",
+    "img": "/5.png",
+    "color": "text-[#59D09D]",
+    "background": "bg-[#B8F1FF]"
+  },
+  {
+    "title": "Democracy and Decentralization",
+    "href": "https://blog.ethswarm.org/foundation/2023/democracy-and-decentralization/",
+    "img": "/6.png",
+    "color": "text-[#FFCBDE]",
+    "background": "bg-[#FF6500]"
+  },
+  {
+    "title": "Net Neutrality",
+    "href": "https://blog.ethswarm.org/foundation/2023/is-net-neutrality-important-for-blockchains/",
+    "img": "/7.png",
+    "color": "text-[#FF6500]",
+    "background": "bg-[#F0FA2F]"
+  },
+  {
+    "title": "Interoperability",
+    "href": "https://blog.ethswarm.org/foundation/2023/why-interoperability-is-the-bedrock-of-digital-freedom/",
+    "img": "/8.png",
+    "color": "text-[#F4FF1F]",
+    "background": "bg-[#63D4A4]"
+  },
+  {
+    "title": "The Way Forward",
+    "href": "https://blog.ethswarm.org/foundation/2023/the-way-forward/",
+    "img": "/9.png",
+    "color": "text-[#4636FF]",
+    "background": "bg-[#FFC3D9]"
+  }
+]
